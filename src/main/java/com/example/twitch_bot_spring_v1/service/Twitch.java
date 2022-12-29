@@ -17,12 +17,15 @@ public class Twitch extends Thread{
             try {
                 WebDriver t1 = new ChromeDriver();
                 WebDriver t2 = new ChromeDriver();
+                WebDriver t3 = new ChromeDriver();
                 t1.get(CHANEL);
                 t2.get(CHANEL);
+                t3.get(CHANEL);
 
                 Thread.sleep(90000);
                 t1.close();
                 t2.close();
+                t3.close();
 
                 System.out.println("It`s ok!");
             } catch (InterruptedException e) {
