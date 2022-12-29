@@ -9,9 +9,8 @@ import org.springframework.context.ConfigurableApplicationContext;
 public class TwitchBotSpringV1Application {
 
     public static void main(String[] args) {
-        ConfigurableApplicationContext context = SpringApplication.run(TwitchBotSpringV1Application.class, args);
+        SpringApplication.run(TwitchBotSpringV1Application.class, args);
 
-        context.close();
     }
 
 

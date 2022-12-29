@@ -32,6 +32,7 @@ public class Twitch extends Thread{
                 t3.close();
                 t4.close();
                 t5.close();
+                System.out.println("It`s ok!");
             } catch (InterruptedException e) {
             }
         }
