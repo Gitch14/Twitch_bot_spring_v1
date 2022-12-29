@@ -12,7 +12,7 @@ public class Main{
             for (int i = 0; i < 8; i++) {
 
                 thread.start();
-                Thread.sleep(100000);
+                Thread.sleep(1000000);
 
             }
 
